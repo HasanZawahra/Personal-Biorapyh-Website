@@ -1,0 +1,181 @@
+body {
+  background-image: url("1FB63C05-4AD2-4CCE-80DA-D5A90EC51187_1_105_c.jpeg");
+
+}
+
+#h1 {
+  text-align: center;
+  color: orange;
+}
+
+h2 {
+  background-color: orange;
+  font-family: verdana;
+  color: currentColor;
+}
+
+
+h3 {
+  color: black;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.ff {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: orange;
+  width: 500px;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+
+}
+
+.grid-item {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item5 {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+.item10 {
+  background-color: black;
+  grid-column: 1 / span 3;
+  grid-row: 5;
+  font-size: 19px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.item10 h2 {
+  background-color: black;
+  color: antiquewhite;
+}
+
+
+
+
+p {
+  color: aquamarine;
+  font-size: 24px;
+}
+
+.sunglasses-emoji {
+  font-size: 36px;
+  color: blue;
+}
+
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media screen and (max-width: 700px) {
+  .item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+  }
+
+  .item2 {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+  }
+
+  .item3 {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+  }
+
+  .item4 {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+  }
+
+  .item5 {
+    grid-column: 1 / span 3;
+    grid-row: 5;
+  }
+
+  .item6 {
+    grid-column: 1 / span 3;
+    grid-row: 6;
+  }
+
+  .item7 {
+    grid-column: 1 / span 3;
+    grid-row: 7;
+  }
+
+  .item8 {
+    grid-column: 1 / span 3;
+    grid-row: 8;
+  }
+
+  .item9 {
+    grid-column: 1 / span 3;
+    grid-row: 9;
+  }
+
+  .item10 {
+    grid-column: 1 / span 3;
+    grid-row: 10;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .container img {
+    max-width: 70%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 0.7em;
+  }
+
+  h3 {
+    font-size: 0.7em;
+  }
+
+  h1 {
+    font-size: 0.7em;
+  }
+
+
+}

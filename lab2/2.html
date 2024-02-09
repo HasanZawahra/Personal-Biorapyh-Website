@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>lab2</title>
+    </head>
+    <body style="text-align: center;">
+        <h2 style="color:red; text-align:center;">
+            <u>page developed by Hasan Zawahra 202109948</u>
+        </h2> 
+            <form action="/action_page.php">
+                <label for="firstname">First Name: </label>
+                <input type="text" id="firstname" name="first name"><br><br>
+                <label for="lastname">Last Name: </label>
+                <input type="text" id="lastname" name="last name"><br><br>
+                <label for="dob">Dob: </label>
+                <input type="date" id="dob" name="dob"><br><br>
+                <label for="email">E-Mail: </label>
+                <input type="text" id="email" name="email"><br><br>
+                <input type="radio" id="male" name="i" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="i" value="female">
+                <label for="female">Female</label><br><br>
+                <label for="city">City: </label>
+                <input id="city" list="cityy" name="city">
+                <datalist id="cityy">
+                    <option value="Jerusalem">
+                    <option value="Bethlehem">
+                    <option value="Hebron">
+                    <option value="Ramallah">
+                    <option value="Nablus">
+                </datalist><br><br>
+                <label for="faculity">Faculity: </label>
+                <input id="faculity" list="faculityy" name="faculity">
+                <datalist id="faculityy">
+                    <option value="Sience">
+                    <option value="Nursing">
+                    <option value="Accounting">
+                </datalist><br><br>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I can come by bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I can come by car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Bus">
+                <label for="vehicle3"> I can come bus</label><br>
+                <input type="checkbox" id="vehicle4" name="vehicle4" value="Train">
+                <label for="vehicle4"> I can come Train</label><br><br>
+                <input type="submit" value="Submit">
+              </form>
+    </body>
+</html>
